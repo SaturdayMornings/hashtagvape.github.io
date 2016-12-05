@@ -1,0 +1,119 @@
+body{
+	margin: 0 auto;
+	font-family: Tahoma;
+}
+
+header{
+	text-align: center;
+	background: url('minimalistGeo.png') 0px -40px;
+	background-size: cover; 
+	margin-top: -50px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+h1{
+	padding-top: 50px;
+	font-size: 50px;
+	color: white;
+}
+
+h2{
+	color: white;
+	line-height: 50px;
+}
+
+header ul{
+	background: rgba(0, 0, 0, 1.0);
+}
+
+header li{
+	display: inline;
+	padding: 0px 30px 0px 0px;
+	line-height: 40px;
+	color: white;
+}
+/***********************************************
+ *			Welcome section, div 1			   *
+ **********************************************/
+#welcome{
+	background: #ffc299;
+	margin-top: -20px;
+	height: 600px;
+}
+
+#nestedIntro{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+#nestedIntro h2{
+	text-align: center;
+	line-height: -100px;
+	color: #fa8072;
+}
+
+#nestedIntro p{
+	margin-top: -20px;
+}
+
+#personalStats{
+	float: right;
+	width: 40%;
+}
+
+#personalStats h4{
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+
+#personalStats p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+#personalStats small{
+	font-style: italic;
+	line-height: -5px;
+}
+
+#personalStats ul{
+	margin-top: 100px;
+	text-align: left;
+}
+
+#personalStats li{
+	margin-left: 35px;
+	font-size: 12px;
+}
+/***********************************************
+ *			Technologies section, div 2		   *
+ **********************************************/
+.technologies{
+	margin-top: -300px;
+	text-align: center;
+	height: 400px;
+	background: #ffc299;
+}
+
+.technologies h2{
+	color: #fa8072;
+}
+
+.technologies table{
+	width: 95%;
+	table-layout: fixed;
+	margin: 0 auto;
+}
+
+.technologies table, th, td{
+	text-align: center;
+	font-style: italic;
+	color: #fa8072;
+	line-height: 10px;
+}
