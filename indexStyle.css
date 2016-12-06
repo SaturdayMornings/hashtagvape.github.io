@@ -49,7 +49,7 @@ header li{
 }
 
 #welcome{
-	background: #ffc299;
+	background: white;
 	margin-top: -20px;
 	height: 600px;
 }
@@ -107,7 +107,8 @@ header li{
 	margin-top: -300px;
 	text-align: center;
 	height: 400px;
-	background: #ffc299;
+	background: white;
+	background: -webkit-linear-gradient(white, #fffacd);
 }
 
 .technologies h2{
