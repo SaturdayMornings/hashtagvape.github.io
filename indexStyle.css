@@ -70,40 +70,51 @@ header li{
 	margin-top: -20px;
 }
 
-#personalStats{
+#stats{
 	float: right;
 	width: 40%;
 }
 
-#personalStats h4{
+#stats h4{
 	font-size: 18px;
 	margin-bottom: 0px;
 }
 
-#personalStats p{
+#stats p{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-size: 14px;
 }
 
-#personalStats small{
+#stats small{
 	font-style: italic;
 	line-height: -5px;
 }
 
-#personalStats ul{
+#stats ul{
 	margin-top: 100px;
 	text-align: left;
 }
 
-#personalStats li{
+#stats li{
 	margin-left: 35px;
+	margin-top: 0px;
 	font-size: 12px;
 }
+
+#stats li ul{
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+#stats li ul li{
+	margin-left: 0px;
+}
+
 /***********************************************
- *			Technologies section, div 2		   *
+ *				Table section, div 2		   *
  **********************************************/
-.technologies{
+.table{
 	margin-top: -300px;
 	text-align: center;
 	height: 400px;
@@ -111,17 +122,18 @@ header li{
 	background: -webkit-linear-gradient(white, #fffacd);
 }
 
-.technologies h2{
+.table h2{
 	color: #fa8072;
+	text-align: center;
 }
 
-.technologies table{
+.table table{
 	width: 95%;
 	table-layout: fixed;
 	margin: 0 auto;
 }
 
-.technologies table, th, td{
+.table table, th, td{
 	text-align: center;
 	font-style: italic;
 	color: #fa8072;
