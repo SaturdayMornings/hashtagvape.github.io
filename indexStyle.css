@@ -71,6 +71,11 @@ header li{
 	margin-top: -20px;
 }
 
+#attributesList li{
+	margin-left: 0px;
+	text-align: left;
+}
+
 #stats{
 	float: right;
 	width: 40%;
