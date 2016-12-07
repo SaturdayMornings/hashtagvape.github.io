@@ -42,6 +42,10 @@ header li{
 	line-height: 40px;
 	color: white;
 }
+
+p a{
+	color: red;
+}
 /***********************************************
  *			Welcome section, div 1			   *
  **********************************************/
@@ -122,6 +126,10 @@ header li{
 #topicModellingTitle{
 	color: #fa8072;
 	text-align: center;
+}
+
+#histograms{
+	margin-top: 500px;
 }
 
 /***********************************************
