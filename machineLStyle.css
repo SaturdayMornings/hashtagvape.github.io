@@ -33,7 +33,8 @@ h2{
 }
 
 header ul{
-	background: rgba(0, 0, 0, 1.0);
+	background: #1a1a1a;
+	background: -webkit-linear-gradient(black, #1a1a1a);
 }
 
 header li{
@@ -43,27 +44,18 @@ header li{
 	color: white;
 }
 
-div h3{
+body div h2{
+	color: #fa8072;
+	text-align: center;
+}
+
+div a{
 	color: black;
-	text-align: center;
-}
-
-div p{
-	text-align: center;
-}
-
-figcaption{
-	font-size: 14px;
 }
 
 /***********************************************
  *			Welcome section, div 1			   *
  **********************************************/
-#wordCloudSubtitle{
-	color: #fa8072;
-	text-align: center;
-}
-
 #caption{
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -144,7 +136,9 @@ figcaption{
 .table{
 	margin-top: 0px;
 	text-align: center;
-	margin: 0 auto;
+	height: 400px;
+	background: white;
+	background: -webkit-linear-gradient(white, #fffacd);
 }
 
 .table h2{
@@ -161,6 +155,6 @@ figcaption{
 .table table, th, td{
 	text-align: center;
 	font-style: italic;
-	color: black;
-	line-height: 20px;
+	color: #fa8072;
+	line-height: 10px;
 }

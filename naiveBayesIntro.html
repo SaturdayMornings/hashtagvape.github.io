@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link type="text/css" rel="stylesheet" href="machineLStyle.css"/>
+        <title>TopicTwo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <h1 id = "title">#Vape</h1>
+            <!-- Image from: https://pbs.twimg.com/profile_images/669263304540319744/DrJibnpk_400x400.png-->
+            <img src="transparentHashtag.png" width="10%" height="10%"/>
+            <h2 id="caption">Who are the #Vapers, #Smokers, #Ecig-lovers</h2>
+            <ul>
+                <li><a href = "topicOne.html">TopicOne</a></li>
+                <li><a href = "topicTwo.html">TopicTwo</a></li>
+                <li><a href = "topicThree.html">TopicThree</a></li>
+                <li>About Us</li>
+                <li><a href = "index.html">Home</a></li>
+            </ul>
+        </header>
+        <div>
+            <h2>Naive Bayes Classification of #cigarette</h2>
+            <p>
+                In an attempt to quantify #vape, #cigarette, and #ecig tweet content tendencies we used a Naive Bayes classifier to predict whether the a given tweet contained #cigarette based on what text the tweets contained. We ran the model twice with 10-fold cross validation each time.
+
+                On Run 1 we fed the model inconsequential attributes and the model was as accurate as we predicted. It randomly assigned hashtags to the tweets. 
+
+                On Run 2 we fed the model those same attributes but included a boolean value that we think serves as a reasonable proxy for tobacco-related health concerns. If the tweet included cancer, kills, quit, or quitting, the boolean would evaluate to 1, otherwise, 0. A t-test revealed that including this value statistically significantly increased the model’s predictive accuracy.
+
+                Here are the results in more detail:
+
+                <a href = "naiveBayes/box.html"><h3>Naive Bayes Run One</h3></a>
+                <a href = "naiveBayes/box2.html"><h3>Naive Bayes Run Two</h3></a>
+
+
+
+            </p>
+        </div>
+    </body>
+</html>
