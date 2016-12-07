@@ -49,6 +49,10 @@ p a{
 /***********************************************
  *			Welcome section, div 1			   *
  **********************************************/
+#Future{
+	color:#fa8072;
+	text-align: center;
+}
 #caption{
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
