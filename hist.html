@@ -1,12 +1,13 @@
+
 <!DOCTYPE html>
-<!-- saved from url=(0067)file:///C:/Users/jerry/Downloads/mayaStaticVisuals/toSend/hist.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
         <title>Bokeh Plot</title>
         
-<link rel="stylesheet" href="./histograms_files/bokeh-0.12.3.min.css" type="text/css">
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.3.min.css" type="text/css" />
         
-<script type="text/javascript" src="./histograms_files/bokeh-0.12.3.min.js.download"></script>
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.3.min.js"></script>
 <script type="text/javascript">
     Bokeh.set_log_level("info");
 </script>
@@ -25,136 +26,7 @@
     <body>
         
         <div class="bk-root">
-            <div class="bk-grid-row bk-layout-fixed" id="modelid_ff0f989d-c345-44d9-9b95-14562ea104c6" style="width: 1200px; height: 600px;"><div class="bk-plot-layout bk-layout-fixed" id="modelid_8b0b939e-2c5f-4503-9046-c1232b18aaef" style="width: 400px; height: 600px;"><div class="bk-toolbar-wrapper bk-layout-null" id="modelid_7b149ccb-bfd4-4f59-85b7-5790bfe55ea2" style="left: 370px; top: 28.964px; width: 30px; height: 571.036px;"><div class="bk-toolbar-right bk-plot-right bk-toolbar-sticky bk-toolbar-active">
-  
-  <a href="http://bokeh.pydata.org/" target="_blank" class="bk-logo bk-logo-small"></a>
-  
-  <div class="bk-button-bar">
-    <ul class="bk-button-bar-list" type="pan"><li><button type="button" class="bk-toolbar-button hover active">
-  <div class="bk-btn-icon bk-tool-icon-pan"></div>
-  <span class="tip">Pan</span>
-</button>
-</li><li><button type="button" class="bk-toolbar-button hover">
-  <div class="bk-btn-icon bk-tool-icon-box-zoom"></div>
-  <span class="tip">Box Zoom</span>
-</button>
-</li></ul>
-    <ul class="bk-button-bar-list" type="scroll"></ul>
-    <ul class="bk-button-bar-list" type="pinch"><li><button type="button" class="bk-toolbar-button hover">
-  <div class="bk-btn-icon bk-tool-icon-wheel-zoom"></div>
-  <span class="tip">Wheel Zoom</span>
-</button>
-</li></ul>
-    <ul class="bk-button-bar-list" type="tap"></ul>
-    <ul class="bk-button-bar-list" type="press"></ul>
-    <ul class="bk-button-bar-list" type="rotate"></ul>
-    <ul class="bk-button-bar-list" type="actions"><li><button type="button" class="bk-toolbar-button hover">
-  <div class="bk-btn-icon bk-tool-icon-save"></div>
-  <span class="tip">Save</span>
-</button>
-</li><li><button type="button" class="bk-toolbar-button hover">
-  <div class="bk-btn-icon bk-tool-icon-reset"></div>
-  <span class="tip">Reset</span>
-</button>
-</li></ul>
-    <div class="bk-button-bar-list bk-bs-dropdown" type="inspectors" style="display: none;"></div>
-    <ul class="bk-button-bar-list" type="help"><li><button type="button" class="bk-toolbar-button hover">
-  <div class="bk-btn-icon bk-tool-icon-help"></div>
-  <span class="tip">Click the question mark to learn more about Bokeh plot tools.</span>
-</button>
-</li></ul>
-  </div>
-</div>
-</div><div class="bk-plot-wrapper" style="position: absolute; left: 0px; top: 0px; width: 400px; height: 600px;"><div class="bk-canvas-wrapper" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 400px; height: 600px;">
-<div class="bk-canvas-events"></div>
-<div class="bk-canvas-overlays"><div class="bk-shading" style="display: none;"></div></div>
-<canvas class="bk-canvas" width="1000" height="1500" style="width: 400px; height: 600px;"></canvas></div></div></div><div class="bk-plot-layout bk-layout-fixed" id="modelid_728f3f3b-1ebd-4aad-bc6a-93e144980dc6" style="width: 400px; height: 600px;"><div class="bk-toolbar-wrapper bk-layout-null" id="modelid_6479b5a1-05d1-4aa6-921d-6cd94c66db78" style="left: 370px; top: 28.964px; width: 30px; height: 571.036px;"><div class="bk-toolbar-right bk-plot-right bk-toolbar-sticky bk-toolbar-active">
-  
-  <a href="http://bokeh.pydata.org/" target="_blank" class="bk-logo bk-logo-small"></a>
-  
-  <div class="bk-button-bar">
-    <ul class="bk-button-bar-list" type="pan"><li><button type="button" class="bk-toolbar-button hover active">
-  <div class="bk-btn-icon bk-tool-icon-pan"></div>
-  <span class="tip">Pan</span>
-</button>
-</li><li><button type="button" class="bk-toolbar-button hover">
-  <div class="bk-btn-icon bk-tool-icon-box-zoom"></div>
-  <span class="tip">Box Zoom</span>
-</button>
-</li></ul>
-    <ul class="bk-button-bar-list" type="scroll"></ul>
-    <ul class="bk-button-bar-list" type="pinch"><li><button type="button" class="bk-toolbar-button hover">
-  <div class="bk-btn-icon bk-tool-icon-wheel-zoom"></div>
-  <span class="tip">Wheel Zoom</span>
-</button>
-</li></ul>
-    <ul class="bk-button-bar-list" type="tap"></ul>
-    <ul class="bk-button-bar-list" type="press"></ul>
-    <ul class="bk-button-bar-list" type="rotate"></ul>
-    <ul class="bk-button-bar-list" type="actions"><li><button type="button" class="bk-toolbar-button hover">
-  <div class="bk-btn-icon bk-tool-icon-save"></div>
-  <span class="tip">Save</span>
-</button>
-</li><li><button type="button" class="bk-toolbar-button hover">
-  <div class="bk-btn-icon bk-tool-icon-reset"></div>
-  <span class="tip">Reset</span>
-</button>
-</li></ul>
-    <div class="bk-button-bar-list bk-bs-dropdown" type="inspectors" style="display: none;"></div>
-    <ul class="bk-button-bar-list" type="help"><li><button type="button" class="bk-toolbar-button hover">
-  <div class="bk-btn-icon bk-tool-icon-help"></div>
-  <span class="tip">Click the question mark to learn more about Bokeh plot tools.</span>
-</button>
-</li></ul>
-  </div>
-</div>
-</div><div class="bk-plot-wrapper" style="position: absolute; left: 0px; top: 0px; width: 400px; height: 600px;"><div class="bk-canvas-wrapper" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 400px; height: 600px;">
-<div class="bk-canvas-events"></div>
-<div class="bk-canvas-overlays"><div class="bk-shading" style="display: none;"></div></div>
-<canvas class="bk-canvas" width="1000" height="1500" style="width: 400px; height: 600px;"></canvas></div></div></div><div class="bk-plot-layout bk-layout-fixed" id="modelid_13b37b78-bf0f-4a0c-ae91-413a22fac894" style="width: 400px; height: 600px;"><div class="bk-toolbar-wrapper bk-layout-null" id="modelid_de15fd6b-df1b-4302-a0d3-1d3ad0f19116" style="left: 370px; top: 28.964px; width: 30px; height: 571.036px;"><div class="bk-toolbar-right bk-plot-right bk-toolbar-sticky bk-toolbar-active">
-  
-  <a href="http://bokeh.pydata.org/" target="_blank" class="bk-logo bk-logo-small"></a>
-  
-  <div class="bk-button-bar">
-    <ul class="bk-button-bar-list" type="pan"><li><button type="button" class="bk-toolbar-button hover active">
-  <div class="bk-btn-icon bk-tool-icon-pan"></div>
-  <span class="tip">Pan</span>
-</button>
-</li><li><button type="button" class="bk-toolbar-button hover">
-  <div class="bk-btn-icon bk-tool-icon-box-zoom"></div>
-  <span class="tip">Box Zoom</span>
-</button>
-</li></ul>
-    <ul class="bk-button-bar-list" type="scroll"></ul>
-    <ul class="bk-button-bar-list" type="pinch"><li><button type="button" class="bk-toolbar-button hover">
-  <div class="bk-btn-icon bk-tool-icon-wheel-zoom"></div>
-  <span class="tip">Wheel Zoom</span>
-</button>
-</li></ul>
-    <ul class="bk-button-bar-list" type="tap"></ul>
-    <ul class="bk-button-bar-list" type="press"></ul>
-    <ul class="bk-button-bar-list" type="rotate"></ul>
-    <ul class="bk-button-bar-list" type="actions"><li><button type="button" class="bk-toolbar-button hover">
-  <div class="bk-btn-icon bk-tool-icon-save"></div>
-  <span class="tip">Save</span>
-</button>
-</li><li><button type="button" class="bk-toolbar-button hover">
-  <div class="bk-btn-icon bk-tool-icon-reset"></div>
-  <span class="tip">Reset</span>
-</button>
-</li></ul>
-    <div class="bk-button-bar-list bk-bs-dropdown" type="inspectors" style="display: none;"></div>
-    <ul class="bk-button-bar-list" type="help"><li><button type="button" class="bk-toolbar-button hover">
-  <div class="bk-btn-icon bk-tool-icon-help"></div>
-  <span class="tip">Click the question mark to learn more about Bokeh plot tools.</span>
-</button>
-</li></ul>
-  </div>
-</div>
-</div><div class="bk-plot-wrapper" style="position: absolute; left: 0px; top: 0px; width: 400px; height: 600px;"><div class="bk-canvas-wrapper" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 400px; height: 600px;">
-<div class="bk-canvas-events"></div>
-<div class="bk-canvas-overlays"><div class="bk-shading" style="display: none;"></div></div>
-<canvas class="bk-canvas" width="1000" height="1500" style="width: 400px; height: 600px;"></canvas></div></div></div></div>
+            <div class="plotdiv" id="deb1caf9-7404-4147-bcf9-a8a5817eb6bd"></div>
         </div>
         
         <script type="text/javascript">
@@ -167,5 +39,5 @@
             });
         });
         </script>
-    
-</body></html>
+    </body>
+</html>
