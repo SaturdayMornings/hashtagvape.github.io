@@ -119,11 +119,15 @@ header li{
 	margin-left: 0px;
 }
 
+#topicModellingTitle{
+	color: #fa8072;
+	text-align: center;
+}
+
 /***********************************************
  *				Table section, div 2		   *
  **********************************************/
 .table{
-	margin-top: 0px;
 	text-align: center;
 	height: 400px;
 	background: white;
@@ -139,6 +143,7 @@ header li{
 	width: 95%;
 	table-layout: fixed;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .table table, th, td{

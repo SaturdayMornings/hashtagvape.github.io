@@ -47,7 +47,6 @@
 					</ol>
 					What did we approach this experiment expecting to find?
 				</p>
-				<img src = "heatMap.png" style = "width:400px; height:400px">
 			</div>
 			<div id = "stats">
 				<ul>
@@ -82,8 +81,51 @@
 			</div>
 		</div>
 		<!-- Table of technical skills, div 2-->
-		<div class = "table">
-			<h2>Hypothesis</h2>
+
+
+		<h2 id = "topicModellingTitle">Topic Modeling</h2>
+		<p>
+			We used LDA to generate topics based on user bios across our dataset. 
+
+
+			We identified four main topics that showed up in the bios across the dataset. These were: sale of cigarettes, health and public opinion, personal, and vape products. There were also various topics identified by LDA that we could not classify, and therefore were classified as other. Notably, there were higher percentages of users tweeting #cigarette that tweeted about health and public opinion than with #vape and #ecig users. There were no tweets classified as personal for #cigarette users, but the personal topic came up with both #vape and #ecig users.
+
+
+			When we created word clouds out of both the bios and the tweets from our data set, both vape and ecig users were seen to tweet with significant frequency about specifically vape-related topics.
+		</p>
+		<div id = "topicModels">
+				<ul>
+					<h4>Topic Model Results</h4>
+						<li><b>#cigarettes: </b></li>
+							<ul>
+								<li><b>writer:</b> 0.044 |<b>advocate:</b> 0.032 |<b>journalist:</b> 0.017 |<b>online:</b> 0.024</li>
+								<li><b>free:</b> 0.107 |<b>duty:</b> 0.027 |<b>worldwide:</b> 0.032 |<b>shipping:</b> 0.029</li>
+								<li><b>news:</b> 0.074 |<b>author:</b> 0.024 |<b>sports:</b> 0.019 |<b>Marketing:</b> 0.029</li>
+								<li><b>health:</b> 0.062 |<b>tobacco:</b> 0.039 |<b>website:</b> 0.034 |<b>like:</b> 0.039</li>
+							</ul>
+						</li>
+						<li><b>#Ecig</b>
+							<ul>
+								<li><b>tobacco:</b> 0.044 |<b>liquid:</b> 0.068 |<b>premium:</b> 0.026 |<b>free:</b> 0.055</li>
+								<li><b>health:</b> 0.082 |<b>news:</b> 0.046 |<b>public:</b> 0.035 |<b>media:</b> 0.024</li>
+								<li><b>news:</b> 0.074 |<b>author:</b> 0.024 |<b>sports:</b> 0.019 |<b>Marketing:</b> 0.029</li>
+								<li><b>health:</b> 0.062 |<b>tobacco:</b> 0.039 |<b>website:</b> 0.034 |<b>like:</b> 0.039</li>
+							</ul>
+						</li>
+						<li><b>#vape</b>
+							<ul>
+								<li><b>writer:</b> 0.044 |<b>advocate:</b> 0.032 |<b>journalist:</b> 0.017 |<b>online:</b> 0.024</li>
+								<li><b>free:</b> 0.107 |<b>duty:</b> 0.027 |<b>worldwide:</b> 0.032 |<b>shipping:</b> 0.029</li>
+								<li><b>news:</b> 0.074 |<b>author:</b> 0.024 |<b>sports:</b> 0.019 |<b>Marketing:</b> 0.029</li>
+								<li><b>health:</b> 0.062 |<b>tobacco:</b> 0.039 |<b>website:</b> 0.034 |<b>like:</b> 0.039</li>
+							</ul>
+						</li>  
+				</ul>
+			</div>
+		</div>
+
+
+		<div id = "table">
 			<table>
 				<tbody>
 					<tr>
