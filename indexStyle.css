@@ -115,7 +115,7 @@ header li{
  *				Table section, div 2		   *
  **********************************************/
 .table{
-	margin-top: -300px;
+	margin-top: 0px;
 	text-align: center;
 	height: 400px;
 	background: white;
