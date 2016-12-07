@@ -50,6 +50,7 @@ header li{
 
 #welcome{
 	background: white;
+	background: -webkit-linear-gradient(#fffacd, white);
 	margin-top: -20px;
 	height: 600px;
 }
